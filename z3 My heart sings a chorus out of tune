@@ -5,4 +5,4 @@ for i = 1, #encoded do
     message[i] = string.char(encoded[i])
 end
 
-print(table.concat(message)
+print(table.concat(message))
