@@ -1,1 +1,8 @@
+local encoded = {73, 32, 104, 97, 116, 101, 32, 101, 118, 101, 114, 121, 111, 110, 101, 32, 111, 109, 103}
+local message = {}
+
+for i = 1, #encoded do
+    message[i] = string.char(encoded[i])
 end
+
+print(table.concat(message))
