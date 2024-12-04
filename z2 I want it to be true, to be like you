@@ -1,1 +1,8 @@
+local encoded = {73, 32, 108, 111, 118, 101, 32, 121, 111, 117}
+local result = ""
 
+for _, code in ipairs(encoded) do
+    result = result .. string.char(code)
+end
+
+print(result)
